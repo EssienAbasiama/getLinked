@@ -1,0 +1,18 @@
+.logo {
+  cursor: pointer;
+  font-family: "ClashDisplay-Bold";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.logolink {
+  color: var(--secondaryColor);
+  cursor: pointer;
+  font-family: "ClashDisplay-Bold";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

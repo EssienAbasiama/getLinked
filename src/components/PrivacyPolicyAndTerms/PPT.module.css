@@ -1,0 +1,196 @@
+.ppt_container {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  /* padding-top: 60px; */
+  padding-left: 100px;
+  height: max-content;
+  width: 100%;
+  background-color: var(--primaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 50px;
+  padding-bottom: 80px;
+  gap: 30px;
+  padding-top: 80px;
+}
+
+.ppt_Image_container {
+  width: 500px;
+  height: 500px;
+  /* background: red; */
+  background-image: url("./../../assets/Shield.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.ppt_contents {
+  width: 50%;
+}
+
+.ppt_image {
+  width: 490px;
+  height: 490px;
+}
+
+.component_header {
+  color: #fff;
+  font-family: "ClashDisplay-Bold";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 0%; */
+}
+
+.ppt_highlight {
+  color: var(--secondaryColor);
+  font-family: "ClashDisplay-Bold";
+}
+
+.component_subheader {
+  margin-top: 20px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px;
+  /* 196.429% */
+}
+
+.spiral {
+  position: absolute;
+  width: 49.43px;
+  height: 57.974px;
+  flex-shrink: 0;
+  background-image: url("./../../assets/arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: -10px;
+  right: 6px;
+}
+
+.ppt_p_title {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 38, 185, 1);
+}
+
+.ppt_p {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 188.4%;
+  margin-top: 20px;
+  /* 26.376px */
+}
+
+.joinUsButton {
+  margin-top: 30px;
+}
+
+.ppt_last_update {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px;
+  margin-top: 20px;
+  /* 196.429% */
+}
+
+.ppt_content_container {
+  width: 569px;
+  height: max-content;
+  padding-bottom: 20px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #d434fe;
+  background: rgba(217, 217, 217, 0.03);
+  margin-top: 90px;
+}
+
+.ppt_content_container_note {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 216.4%;
+  padding: 70px 70px 70px 70px;
+  /* 30.296px */
+}
+
+.licensing_policy {
+  color: #d434fe;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 216.4%;
+  padding: 0px 70px;
+  /* 34.624px */
+}
+
+.licensing_policy_note {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 216.4%;
+  padding: 0px 70px;
+  /* 30.296px */
+}
+
+.listing_note {
+  margin-left: 20px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 216.4%;
+  /* 30.296px */
+}
+
+.list {
+  display: flex;
+  padding: 0px 70px;
+  /* justify-content: center; */
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.check {
+  margin-top: 7px;
+}
+
+.ppt_padlock_img {
+  width: 600px;
+  height: 600px;
+  /* background: red; */
+  background-image: url("./../../assets/ppt.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: -250px;
+  left: -75px;
+}
+
+.ppt_readMore_Button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+}

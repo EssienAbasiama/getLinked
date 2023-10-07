@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
+.intro {
+  height: 97vh;
+  background-color: var(--primaryColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px 0px 100px;
+  position: relative;
+  width: 100%;
+}
+
+.title h2 {
+  color: #fff;
+  font-family: "ClashDisplay-Bold";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166%;
+}
+
+.subheading {
+  margin-top: 10px;
+}
+
+.manOnGlasses {
+  /* transform: scale(0.732); */
+  display: flex;
+  margin-top: 20px;
+  margin-right: 0px;
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  bottom: 0;
+  mix-blend-mode: luminosity;
+}
+
+.title_images {
+  width: 50%;
+  /* margin-top: 100px; */
+  /* background-color: red; */
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  /* margin */
+}
+
+.title {
+  /* width: 50%; */
+  position: relative;
+}
+
+.hackathon_number {
+  color: var(--secondaryColor);
+  font-family: "ClashDisplay-Bold";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.title Button {
+  margin-top: 30px;
+}
+
+.renovation {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.renovation_container {
+  position: absolute;
+  top: 25px;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
+}
+
+.glowWorld {
+  background-image: url("./../../assets/glowWorld.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 3000;
+  bottom: -10px;
+  left: 20px;
+  width: 567px;
+  height: 567px;
+  flex-shrink: 0;
+  mix-blend-mode: hard-light;
+}
+
+.timer {
+  margin-top: 20px;
+  color: #fff;
+  font-family: Unica One;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
+}
+
+.subscript {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
+  /* 18.62px */
+}
+
+.title_complement_images {
+  position: absolute;
+  top: 105px;
+  right: -80px;
+  display: flex;
+  width: max-content;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chain {
+  background-image: url("./../../assets/chain.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.fire {
+  background-image: url("./../../assets/1f4a5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}

@@ -1,0 +1,138 @@
+.TimeLineContainer {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding-top: 80px;
+  padding-left: 50px;
+  height: max-content;
+  width: 100%;
+  background-color: var(--primaryColor);
+  /* display: flex; */
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 50px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.timeLine_title {
+  color: #fff;
+  font-family: "ClashDisplay-Bold";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0%;
+  /* 0px */
+}
+
+.timeLine_subTitle {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 172.4%;
+  margin-top: 25px;
+  /* 24.136px */
+}
+
+.timeLine_Skeleton {
+  display: flex;
+  margin-top: 40px;
+  padding-top: 20px;
+  justify-content: space-around;
+}
+
+.left {
+  width: 33.3%;
+}
+
+.right {
+  width: 33.3%;
+}
+
+.timeLine_content_left {
+  text-align: right;
+  margin-top: 50px;
+}
+
+.timeLine_content_right {
+  text-align: left;
+  margin-top: 60px;
+}
+
+.timeLine_content_right p,
+.timeLine_content_left p {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.9%;
+  margin-top: 10px;
+}
+
+.timeLine_content_right h2,
+.timeLine_content_left h2 {
+  color: #d434fe;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.timeLine_date {
+  color: #d434fe;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.right_01 {
+  margin-top: 60px;
+}
+
+.center {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.center_rod_01 {
+  width: 4px;
+  height: 137px;
+  background: #d434fe;
+}
+
+.center_rod_others {
+  width: 4px;
+  height: 40px;
+  background: #d434fe;
+}
+
+.left,
+.right {
+  margin-top: 95px;
+}
+
+.timeLine_number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+  flex-shrink: 0;
+  border-radius: 26.5px;
+  background: linear-gradient(270deg, #903aff 0%, #d434fe 100%);
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

@@ -1,0 +1,142 @@
+.faq_container {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  /* padding-top: 60px; */
+  padding-left: 100px;
+  height: max-content;
+  width: 100%;
+  background-color: var(--primaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 50px;
+  gap: 30px;
+}
+
+.faq_Image_container {
+  width: 700px;
+  height: 700px;
+  /* background: red; */
+  background-image: url("./../../assets/faq.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 200px;
+}
+
+.faq_contents {
+  width: 50%;
+}
+
+.faq_image {
+  width: 490px;
+  height: 490px;
+}
+
+.component_header {
+  color: #fff;
+  font-family: "ClashDisplay-Bold";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 0%; */
+}
+
+.faq_highlight {
+  color: var(--secondaryColor);
+  font-family: "ClashDisplay-Bold";
+}
+
+.component_subheader {
+  margin-top: 20px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px;
+  /* 196.429% */
+}
+
+.spiral {
+  position: absolute;
+  width: 49.43px;
+  height: 57.974px;
+  flex-shrink: 0;
+  background-image: url("./../../assets/arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: -10px;
+  right: 6px;
+}
+
+.faq_p_title {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 38, 185, 1);
+}
+
+.faq_p {
+  font-family: "Montserrat";
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.joinUsButton {
+  margin-top: 30px;
+}
+
+.questionMark01,
+.questionMark02,
+.questionMark03 {
+  /* background: red; */
+  position: absolute;
+}
+
+.questionMark01 {
+  top: -40px;
+  right: 30%;
+  height: 80px;
+  width: 80px;
+  background-image: url("./../../assets/questionMark.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.questionMark02 {
+  top: -90px;
+  right: 57%;
+  height: 100px;
+  width: 71px;
+  background-image: url("./../../assets/_.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.questionMark03 {
+  top: -40px;
+  right: 80%;
+  height: 80px;
+  width: 80px;
+  background-image: url("./../../assets/questionMark.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.faq_subheader {
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  margin-bottom: 50px;
+  text-align: left;
+}

@@ -1,0 +1,14 @@
+.button {
+  border: none;
+  width: 170px;
+  height: 45px;
+  border-radius: 4px;
+  cursor: pointer;
+  background: var(--gradient);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* background: linear-gradient(to left, rgba(144, 58, 255, 1) rgba(212, 52, 254, 1), rgba(255, 38, 185, 1), rgba(254, 52, 185, 1)); */
+}
